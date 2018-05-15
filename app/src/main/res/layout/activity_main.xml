@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bunnyquizapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        style="@style/layoutStyle"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/headerImage"
+            android:src="@drawable/bunnies"
+            style="@style/imageStyle"
+            android:contentDescription="@string/header_image" />
+
+        <TextView
+            android:id="@+id/header"
+            android:text="@string/header_Title"
+            style="@style/headerStyle" />
+
+        <TextView
+            android:id="@+id/subheader"
+            android:text="@string/subHeader"
+            style="@style/subheaderStyle"/>
+
+        <TextView
+            android:id="@+id/question1text"
+            style="@style/questionStyle"
+            android:text="@string/q1_Rabbits_belong"/>
+
+        <ImageView
+            android:id="@+id/imageQ1"
+            android:src="@drawable/order2"
+            style="@style/imageStyle"
+            android:contentDescription="@string/q1_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ1"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio1a"
+                android:text="@string/answer1a_Rodents"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio1b"
+                android:text="@string/answer1b_Lagomorphs"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio1c"
+                android:text="@string/answer1c_Primates"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio1d"
+                android:text="@string/answer1d_Marsupials"
+                style="@style/radioButtonStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2text"
+            style="@style/questionStyle"
+            android:text="@string/q2_the_process"/>
+
+        <ImageView
+            android:id="@+id/imageQ2"
+            android:src="@drawable/friends"
+            style="@style/imageStyle"
+            android:contentDescription="@string/q2_Image" />
+
+        <!-- Credit - found example of EditText here:
+        https://developer.android.com/training/keyboard-input/style -->
+        <EditText
+            android:id="@+id/question2answer"
+            android:hint="@string/q2_Answer_here"
+            style="@style/inputTextStyle"/>
+
+        <TextView
+            android:id="@+id/question3text"
+            style="@style/questionStyle"
+            android:text="@string/q3_The_average_lifespan"/>
+
+        <ImageView
+            android:id="@+id/imageQ3"
+            android:src="@drawable/loved"
+            style="@style/imageStyle"
+            android:layout_height="125dp"
+            android:contentDescription="@string/q3_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ3"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio3a"
+                android:text="@string/answer3a_1to2"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio3b"
+                android:text="@string/answer3b_4to5"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio3c"
+                android:text="@string/answer3c_6to8"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio3d"
+                android:text="@string/answer3d_10to12"
+                style="@style/radioButtonStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question4text"
+            style="@style/questionStyle"
+            android:text="@string/q4_spaying_rabbit"/>
+
+        <ImageView
+            android:id="@+id/imageQ4"
+            android:src="@drawable/vet"
+            style="@style/imageStyle"
+            android:contentDescription="@string/q4_image" />
+
+        <LinearLayout
+            android:id="@+id/q4LinearLayout"
+            style="@style/linearlayoutCheckboxStyle">
+
+            <CheckBox
+                android:id="@+id/checkbox4a"
+                android:text="@string/answer4a_reduces_cancer"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4b"
+                android:text="@string/answer4b_obnoxious_behavior"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4c"
+                android:text="@string/answer4c_prevents_babies"
+                style="@style/checkboxStyle"/>
+
+            <CheckBox
+                android:id="@+id/checkbox4d"
+                android:text="@string/answer4d_happier_pet"
+                style="@style/checkboxStyle"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question5text"
+            style="@style/questionStyle"
+            android:text="@string/q5_easter_rabbits"/>
+
+        <ImageView
+            android:id="@+id/imageQ5"
+            android:src="@drawable/abandoned2"
+            style="@style/imageStyle"
+            android:layout_height="175dp"
+            android:contentDescription="@string/q5_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ5"
+            style="@style/radioGroupHorizStyle">
+
+            <RadioButton
+                android:id="@+id/radio5a"
+                android:text="@string/answer5a_True"
+                style="@style/radioButtonHorizStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio5b"
+                android:text="@string/answer5b_False"
+                style="@style/radioButtonHorizStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6text"
+            style="@style/questionStyle"
+            android:text="@string/q6_Rabbit_poop"/>
+
+        <ImageView
+            android:id="@+id/imageQ6"
+            android:src="@drawable/poop"
+            style="@style/imageStyle"
+            android:layout_height="100dp"
+            android:contentDescription="@string/q6_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ6"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio6a"
+                android:text="@string/answer6a_Cecotropes"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio6b"
+                android:text="@string/answer6b_Coprophagia"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio6c"
+                android:text="@string/answer6c_Protists"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio6d"
+                android:text="@string/answer6d_Microbiomes"
+                style="@style/radioButtonStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question7text"
+            style="@style/questionStyle"
+            android:text="@string/q7_What_breed"/>
+
+        <ImageView
+            android:id="@+id/imageQ7"
+            app:srcCompat="@drawable/bunny1"
+            style="@style/imageStyle"
+            android:layout_height="170dp"
+            android:contentDescription="@string/q7_image" />
+
+        <EditText
+            android:id="@+id/question7answer"
+            android:hint="@string/q7_Answer_here"
+            style="@style/inputTextStyle"/>
+
+        <TextView
+            android:id="@+id/question8text"
+            style="@style/questionStyle"
+            android:text="@string/q8_Rabbit_Diet"/>
+
+        <ImageView
+            android:id="@+id/imageQ8"
+            android:src="@drawable/eating"
+            style="@style/imageStyle"
+            android:contentDescription="@string/q8_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ8"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio8a"
+                android:text="@string/answer8a_Pellets"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio8b"
+                android:text="@string/answer8b_Hay"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio8c"
+                android:text="@string/answer8c_Lettuce"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio8d"
+                android:text="@string/answer8d_Carrots"
+                style="@style/radioButtonStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question9text"
+            style="@style/questionStyle"
+            android:text="@string/q9_Potty_Trained"/>
+
+        <ImageView
+            android:id="@+id/imageQ9"
+            android:src="@drawable/toilet"
+            style="@style/imageStyle"
+            android:layout_height="125dp"
+            android:contentDescription="@string/q9_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ9"
+            style="@style/radioGroupHorizStyle">
+
+            <RadioButton
+                android:id="@+id/radio9a"
+                android:text="@string/answer9a_True"
+                style="@style/radioButtonHorizStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio9b"
+                android:text="@string/answer9b_False"
+                style="@style/radioButtonHorizStyle"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question10text"
+            style="@style/questionStyle"
+            android:text="@string/q10_Rabbit_Teeth"/>
+
+        <ImageView
+            android:id="@+id/imageQ10"
+            android:src="@drawable/teeth2"
+            style="@style/imageStyle"
+            android:layout_height="200dp"
+            android:contentDescription="@string/q10_image" />
+
+        <RadioGroup
+            android:id="@+id/radioQ10"
+            style="@style/radioGroupStyle">
+
+            <RadioButton
+                android:id="@+id/radio10a"
+                android:text="@string/answer10a_Theyre_Same"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio10b"
+                android:text="@string/answer10b_Stop_Growing"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio10c"
+                android:text="@string/answer10c_No_Molars"
+                style="@style/radioButtonStyle"/>
+
+            <RadioButton
+                android:id="@+id/radio10d"
+                android:text="@string/answer10d_Incisors_Peg"
+                style="@style/radioButtonStyle"/>
+
+        </RadioGroup>
+
+        <Button
+            android:text="@string/btn_Calculate"
+            style="@style/calcButtonStyle"
+            android:onClick="calculateScore"/>
+
+        <TextView
+            android:id="@+id/endText"
+            android:text="@string/theEnd"
+            style="@style/endTextStyle"/>
+
+    </LinearLayout>
+
+</ScrollView>

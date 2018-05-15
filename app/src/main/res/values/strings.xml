@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Bunny Quiz</string>
+
+    <!-- Header Title at top of page -->
+    <string name="header_Title">Welcome to Fun Facts About Pet Rabbits</string>
+    <!-- Subheader Text -->
+    <string name="subHeader">Test your knowledge below. Good Luck!</string>
+    <!-- Image Description - Android Studio prompted me to make this -->
+    <string name="header_image">Six bunnies sitting next to each other</string>
+
+    <!-- Question 1 text -->
+    <string name="q1_Rabbits_belong">Q1. Rabbits belong to the order of</string>
+    <!-- Image Description -->
+    <string name="q1_image">Groupings of animals</string>
+    <!-- Question 1 Radio Button Answers -->
+    <string name="answer1a_Rodents">Rodents</string>
+    <string name="answer1b_Lagomorphs">Lagomorphs</string>
+    <string name="answer1c_Primates">Primates</string>
+    <string name="answer1d_Marsupials">Marsupials</string>
+
+    <!-- Question 2 text -->
+    <string name="q2_the_process">Q2. The process of getting bunnies to become friends is called</string>
+    <!-- Image Description -->
+    <string name="q2_Image">Two rabbits snuggling</string>
+    <!-- Question 2 Input Text Answer -->
+    <string name="q2_Answer_here">Type your answer here</string>
+
+    <!-- Question 3 text -->
+    <string name="q3_The_average_lifespan">Q3. The average lifespan of a well cared for rabbit is around</string>
+    <!-- Image Description -->
+    <string name="q3_image">Baby bunny on woman\'s lap</string>
+    <!-- Question 3 Radio Button Answers -->
+    <string name="answer3a_1to2">1&#8211;2 years</string>
+    <string name="answer3b_4to5">4&#8211;5 years</string>
+    <string name="answer3c_6to8">6&#8211;8 year</string>
+    <string name="answer3d_10to12">10&#8211;12 years</string>
+
+    <!-- Question 4 text -->
+    <string name="q4_spaying_rabbit">Q4. Spaying your rabbit is important because it (select all that apply)</string>
+    <!-- Image Description -->
+    <string name="q4_image">Vet holding rabbit</string>
+    <!-- Question 4 Radio Button Answers -->
+    <string name="answer4a_reduces_cancer">Reduces/eliminates reproductive cancers</string>
+    <string name="answer4b_obnoxious_behavior">Avoids obnoxious or destructive behavior</string>
+    <string name="answer4c_prevents_babies">Prevents unwanted babies</string>
+    <string name="answer4d_happier_pet">Makes a happier healthier pet</string>
+
+    <!-- Question 5 text -->
+    <string name="q5_easter_rabbits">Q5. Four out of five rabbits bought as pets for Easter are abandoned or die within a year</string>
+    <!-- Image Description -->
+    <string name="q5_image">Injured dying rabbit</string>
+    <!-- Question 5 Radio Button Answers -->
+    <string name="answer5a_True">True</string>
+    <string name="answer5b_False">False</string>
+
+    <!-- Question 6 text -->
+    <string name="q6_Rabbit_poop">Q6. Rabbits eat a special type of poop called</string>
+    <!-- Image Description -->
+    <string name="q6_image">Rabbit poop</string>
+    <!-- Question 6 Radio Button Answers -->
+    <string name="answer6a_Cecotropes">Cecotropes</string>
+    <string name="answer6b_Coprophagia">Coprophagia</string>
+    <string name="answer6c_Protists">Protists</string>
+    <string name="answer6d_Microbiomes">Microbiomes</string>
+
+    <!-- Question 7 text -->
+    <string name="q7_What_breed">Q7. What breed of rabbit is this?</string>
+    <!-- Image Description -->
+    <string name="q7_image">Lop earred bunny</string>
+    <!-- Question 7 Input Text Answer -->
+    <string name="q7_Answer_here">Type your answer here</string>
+
+    <!-- Question 8 text -->
+    <string name="q8_Rabbit_Diet">Q8. The majority of a rabbit\'s diet should be</string>
+    <!-- Image Description -->
+    <string name="q8_image">Rabbit eating</string>
+    <!-- Question 8 Radio Button Answers -->
+    <string name="answer8a_Pellets">Pellets</string>
+    <string name="answer8b_Hay">Hay</string>
+    <string name="answer8c_Lettuce">Lettuce</string>
+    <string name="answer8d_Carrots">Carrots</string>
+
+    <!-- Question 9 text -->
+    <string name="q9_Potty_Trained">Q9. Rabbits can be potty trained</string>
+    <!-- Image Description -->
+    <string name="q9_image">Rabbit playing with toilet paper</string>
+    <!-- Question 9 Radio Button Answers -->
+    <string name="answer9a_True">True</string>
+    <string name="answer9b_False">False</string>
+
+    <!-- Question 10 text -->
+    <string name="q10_Rabbit_Teeth">Q10. How are rabbit\'s teeth different from rodent\'s teeth</string>
+    <!-- Image Description -->
+    <string name="q10_image">Rabbit yawning</string>
+    <!-- Question 9 Radio Button Answers -->
+    <string name="answer10a_Theyre_Same">They are the same</string>
+    <string name="answer10b_Stop_Growing">Rabbit teeth stop growing after they\'re an adult</string>
+    <string name="answer10c_No_Molars">Rabbits don\'t have molars</string>
+    <string name="answer10d_Incisors_Peg">Rabbits have 2 sets of incisors with peg teeth behind it</string>
+    <string name="btn_Calculate">Calculate Score</string>
+
+    <!-- Final text at the end -->
+    <string name="theEnd">Thank you for playing! Remember, rabbits are not toys, they are living creatures with feelings and needs. Do not buy a rabbit unless you are ready to commit to them for at least 10 years. Rabbits need regular checkups with a vet who specializes in rabbit care. Rabbits need to run around and be part of the family, not stuck in a small cage their whole life. If this sounds like something you want to do, please adopt a bunny from a local rescue or shelter. It will not only change the life of the bunny but yours as well!</string>
+
+    <!-- Score message in Toast -->
+    <!-- Slack Mentor suggested to do this and provided link of example -
+    https://discussions.udacity.com/t/share-your-project-mentor-feedback/508399/5646
+    https://stackoverflow.com/questions/12627457/format-statement-in-a-string-resource-file/20887690#20887690 -->
+    <string name="your_Score">Your score is: %1$d/10 %2$s</string>
+
+    <!-- Correct Answer for Question 2 -->
+    <string name="Q2_correct">Bonding</string>
+    <!-- Correct Answer for Question 7 -->
+    <string name="Q7_correct">Holland Lop</string>
+
+    <!-- Wrong Answer Message Text -->
+    <string name="Q1_wrong">\n Q1 is wrong</string>
+    <string name="Q2_wrong">\n Q2 is wrong</string>
+    <string name="Q3_wrong">\n Q3 is wrong</string>
+    <string name="Q4_wrong">\n Q4 is wrong</string>
+    <string name="Q5_wrong">\n Q5 is wrong</string>
+    <string name="Q6_wrong">\n Q6 is wrong</string>
+    <string name="Q7_wrong">\n Q7 is wrong</string>
+    <string name="Q8_wrong">\n Q8 is wrong</string>
+    <string name="Q9_wrong">\n Q9 is wrong</string>
+    <string name="Q10_wrong">\n Q10 is wrong</string>
+
+</resources>
